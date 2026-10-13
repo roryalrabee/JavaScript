@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task / Note Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main class="task-manager">
+        <h1>Task / Note Manager</h1>
+
+        <div class="task-input">
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="Enter a task..."
+                aria-label="Enter a task"
+            >
+            <button id="addTaskButton" type="button">Add Task</button>
+        </div>
+
+        <p>Total Tasks: <span id="taskCounter">0</span></p>
+
+        <ul id="taskList"></ul>
+    </main>
+</body>
+</html>

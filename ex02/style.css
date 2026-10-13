@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 40px;
+    background-color: #f4f6f8;
+}
+
+h1 {
+    color: #263859;
+}
+
+#message {
+    color: #555555;
+    font-size: 18px;
+}
+
+button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    background-color: #263859;
+    color: white;
+    cursor: pointer;
+}
+
+.status {
+    margin-top: 20px;
+    padding: 12px;
+    color: #555555;
+}
+
+/* The active class */
+.active {
+    background-color: #d9f7e8;
+    color: #176b45;
+    border-radius: 8px;
+    padding: 12px;
+}
